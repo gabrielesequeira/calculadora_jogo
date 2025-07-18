@@ -33,13 +33,3 @@ Essa divisão permite praticar diferentes paradigmas de programação e integra�
 ## Estrutura de arquivos
 
 O projeto está organizado da seguinte forma:
-
-```bash
-projeto/
-│
-├── calculadora.py            # Lógica da calculadora científica em Python
-├── menu_principal.py         # Menu interativo principal em Python
-├── jogo_adivinhacao.c        # Código do jogo de adivinhação em C
-├── jogo_adivinhacao.exe      # Executável compilado do jogo (em sistemas Windows)
-└── README.md                 # Documentação do projeto
-```
