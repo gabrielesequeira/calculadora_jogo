@@ -30,6 +30,3 @@ O programa principal, feito em **Python**, exibe o **menu interativo** que direc
 
 Essa divisão permite praticar diferentes paradigmas de programação e integrações entre linguagens.
 
-## Estrutura de arquivos
-
-O projeto está organizado da seguinte forma:
