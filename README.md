@@ -1,34 +1,35 @@
-# Calculadora Científica e Jogo de Adivinhação
+# Scientific Calculator and Guessing Game
 
-Projeto da disciplina **INF1034 - Práticas de Programação**  
-Feito com **Python** e **C**, combinando lógica estruturada e interatividade via terminal.
+Project for the course **INF1034 - Programming Practices**  
+Built with **Python** and **C**, combining structured logic and terminal interactivity.
 
-## Objetivo
+## Objective
 
-Desenvolver um sistema com **duas funcionalidades principais** acessadas por um **menu interativo**:
+Develop a system with **two main functionalities** accessed through an **interactive menu**:
 
-1. **Calculadora Científica**  
-   Realiza operações matemáticas básicas (adição, subtração, multiplicação, divisão) e avançadas (exponenciação e raiz quadrada).
+1. **Scientific Calculator**  
+   Performs basic mathematical operations (addition, subtraction, multiplication, division) and advanced operations (exponentiation and square root).
 
-2. **Jogo de Adivinhação**  
-   Gera um número aleatório e desafia o usuário a adivinhá-lo. O programa informa se o palpite é maior ou menor até que o número correto seja encontrado.
+2. **Guessing Game**  
+   Generates a random number and challenges the user to guess it. The program informs if the guess is higher or lower until the correct number is found.
 
-## Funcionalidades
+## Features
 
-- [x] Menu interativo para escolher entre calculadora e jogo  
-- [x] Operações matemáticas com tratamento de erros  
-- [x] Geração e comparação de número aleatório  
-- [x] Dicas para facilitar a adivinhação  
-- [x] Integração entre programas escritos em Python e C  
+- [x] Interactive menu to choose between calculator and game  
+- [x] Mathematical operations with error handling  
+- [x] Random number generation and comparison  
+- [x] Hints to ease guessing  
+- [x] Integration between programs written in Python and C  
 
-## Lógica de dados do Backend
+## Backend Data Logic
 
-O programa principal, feito em **Python**, exibe o **menu interativo** que direciona o usuário para uma das opções:
+The main program, made in **Python**, displays the **interactive menu** that directs the user to one of the options:
 
-- Ao escolher a **calculadora**, o Python executa funções que realizam os cálculos com base na entrada do usuário.
-- Ao escolher o **jogo de adivinhação**, o Python chama um programa externo em **C**, que é responsável por toda a lógica do jogo, usando bibliotecas padrão para entrada/saída e geração de números aleatórios.
+- When choosing the **calculator**, Python executes functions that perform calculations based on user input.
+- When choosing the **guessing game**, Python calls an external program written in **C**, which is responsible for all the game logic, using standard libraries for input/output and random number generation.
 
-Essa divisão permite praticar diferentes paradigmas de programação e integrações entre linguagens.
+This division allows practicing different programming paradigms and language integrations.
+
 ## Topics Learned and Practiced
 
 During the development of this project, several concepts were addressed and applied:
@@ -53,5 +54,3 @@ During the development of this project, several concepts were addressed and appl
   - Standard input and output (`stdio.h`)
   - Use of libraries for random number generation (`stdlib.h`, `time.h`)
   - Loops and conditional statements for game control
-
-
