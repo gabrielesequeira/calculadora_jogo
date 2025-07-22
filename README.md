@@ -29,4 +29,29 @@ O programa principal, feito em **Python**, exibe o **menu interativo** que direc
 - Ao escolher o **jogo de adivinhação**, o Python chama um programa externo em **C**, que é responsável por toda a lógica do jogo, usando bibliotecas padrão para entrada/saída e geração de números aleatórios.
 
 Essa divisão permite praticar diferentes paradigmas de programação e integrações entre linguagens.
+## Topics Learned and Practiced
+
+During the development of this project, several concepts were addressed and applied:
+
+- **Program structure with interactive menu**
+  - Implementation of simple terminal interfaces for feature selection
+
+- **Mathematical operations in Python**
+  - Basic calculations (addition, subtraction, multiplication, division)
+  - Advanced operations (exponentiation, square root)
+  - Exception handling to prevent input errors, such as division by zero
+
+- **Cross-language integration**
+  - Communication between Python and external programs written in C
+  - Execution of C programs from Python scripts
+
+- **Input and output handling**
+  - Receiving user input via terminal
+  - Displaying messages and interactive feedback
+
+- **Basic concepts of structured programming in C**
+  - Standard input and output (`stdio.h`)
+  - Use of libraries for random number generation (`stdlib.h`, `time.h`)
+  - Loops and conditional statements for game control
+
 
